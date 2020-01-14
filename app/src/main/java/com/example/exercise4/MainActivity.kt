@@ -18,10 +18,8 @@ class MainActivity : AppCompatActivity() {
 
 
         button.setOnClickListener{
-
             val newFragment = DatePickerFragment()
             newFragment.show(fragmentManager, "Date Picker")
-
         }
 
         Calculate.setOnClickListener{
